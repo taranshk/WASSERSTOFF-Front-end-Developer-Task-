@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {Layout} from "antd";
+import {Content, Header, Footer} from "antd/es/layout/layout";
+import SubHeader from "./componets/Header/SubHeader";
+import "./styles/dashboard.css";
+import Dashboard from "./Routor/Dashboard";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+     <Header className="header"><SubHeader/>  </Header>
+    <Layout>
+   
+    <Content> 
+          <Dashboard/>
+    </Content>
+  
+    </Layout>
+    <Footer style={{ textAlign: 'left' }}>ORION DATA VISUALISATION</Footer>
+    </Layout>
+ 
   );
-}
+};
 
 export default App;

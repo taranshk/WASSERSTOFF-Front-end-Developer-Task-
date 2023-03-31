@@ -1,0 +1,27 @@
+.navigation{
+    position: relative;
+    left: 144px;
+}
+.navigation__wrapper{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 4rem;
+}
+.navigation__wrapper li {
+    flex: 1;
+    text-align: center;
+    font-size: larger;
+  }
+  .navigation__wrapper li a {
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .navigation__wrapper li a:hover {
+    text-decoration: underline;
+    color: #171515;
+  }

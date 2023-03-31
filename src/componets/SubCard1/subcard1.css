@@ -1,0 +1,42 @@
+.Card {
+    width: 300px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Card__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .Card__wrapper p:first-child {
+    font-weight: bold;
+  }
+  
+  .Card__wrapper p:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Card__wrapper p:last-child span.Arrow {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #00c48c;
+  }
+  
+  .Card__wrapper p:last-child span.Arrow svg {
+    font-size: 18px;
+    margin-left: 5px;
+    color: #00c48c;
+  }
+  

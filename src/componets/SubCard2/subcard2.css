@@ -1,0 +1,49 @@
+.SubCard2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #8676FF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .SubCard2 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #4313dd;
+  }
+  
+  .SubCard2 div:last-child {
+    border-bottom: none;
+  }
+  
+  .SubCard2 div p:first-child {
+    font-weight: bold;
+    color: azure;
+  }
+  
+  .SubCard2 div p:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: azure;
+  }
+  
+  .SubCard2 div p:last-child span {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #38F261;
+
+  }
+  
+  .SubCard2 div p:last-child span .my-icon-up {
+    font-size: 18px;
+    margin-left: 5px;
+    color: #38F261;
+  }
+  

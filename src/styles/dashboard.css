@@ -1,0 +1,21 @@
+.container{
+    height: 100vh;
+    
+}
+.header{
+    background-color: #ffffff;
+    display: flex;
+}
+.brand{
+    font-size: 10 rem;
+    padding: 10;
+}
+.Design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sider__wrapper{
+    background-color: #DBDFF1;
+    
+}

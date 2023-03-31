@@ -1,0 +1,30 @@
+
+  .SubCard__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 80vh;
+    width: 300px;
+  }
+  
+  .subcard1__container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SubCard2__container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SubCard3__container{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+  }
+  

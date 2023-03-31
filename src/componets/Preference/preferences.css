@@ -1,0 +1,25 @@
+.preferences__wrapper{
+    position: relative;
+    left: 300px;
+    width: 20px;
+    height: 20px;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+.preferences__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .preferences__wrapper ul {
+    display: flex;
+    list-style: none;
+    gap: 20px; /* add gap between icons */
+  }
+  
+  .preferences__wrapper ul li {
+    font-size: 24px; /* set icon size */
+    color: #333; /* set icon color */
+  }
+  

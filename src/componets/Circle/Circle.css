@@ -1,0 +1,42 @@
+.timeline__header {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+    display: inline-flex;
+    justify-content: center;
+    background: white;
+  }
+  
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eef1fa;
+    flex-direction: column;
+    height: 85vh;
+    width: 85vw;
+  }
+  .container1 .parent {
+    display: flex;
+    background: transparent;
+    width: 500px;
+    height: 500px;
+    border: 20px solid  #f8f9f9;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .container1 .child {
+    display: flex;
+    background: white;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 100px 80px rgba(108, 73, 172, 0.07) ;
+  }
