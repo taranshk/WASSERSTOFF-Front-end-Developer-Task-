@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.ant-layout-sider-light{
+  flex: 0 0 224px;
+  max-width: 200px;
+  min-width: 301px;
 }
