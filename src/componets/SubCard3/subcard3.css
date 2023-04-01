@@ -1,5 +1,25 @@
+
 .my-table {
+  
     width: 300px;
     height: 100px;
   }
-  
+  .ant-table-tbody{
+    font-family: 'Roboto', sans-serif;
+    border-top: none;
+    border-bottom: none;
+  }
+  .my-icon-up{
+    color: #00B929;
+    font-size:  20px;
+  }
+  .my-icon-down{
+    color: #FF2D2E;
+
+    font-size:  20px;
+  }
+  .lasty{
+    font-family: 'Roboto', sans-serif;
+    color: #9292C1;
+
+  }
