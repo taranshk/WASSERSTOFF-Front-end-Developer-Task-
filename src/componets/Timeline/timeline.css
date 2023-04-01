@@ -7,18 +7,18 @@
   }
   
   .button {
-
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.44px;
-  background-color: #fff;
-  color: #333;
-  border: 6px solid white;
-  border-radius: 5px;
-  padding: 2px 16px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    color: #333;
+    border: 6px solid white;
+    border-radius: 5px;
+    padding: 2px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
   .button__container {
     display: flex;
