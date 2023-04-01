@@ -8,6 +8,10 @@ I developed this admin dashboard using react js and ant design , react icon libr
 
 Techonolgy Stack: React , Datajson,Html ,Css ,Javascript, Git, Github, Netlify , Ant design libraries for layout, icon , Ant visual libraries for barchart, histogram , react icons for icons ,react router dom to navigate from one page to other pages.
 
+Steps: Simply download the code in your system and open the vs code or other editor after that  add dependency like ant design {npm install antd} ,{npm install react-icons} , {npm i react-router-dom} after that {npm start}
+
+for deploy project on website for other people can see your website simply run the command {npm run build} in your terminal or a build will create in your project folder file simply drag and drop the build folder to netlify like free hosted website.
+
 Video link : https://drive.google.com/drive/u/1/folders/1YfuiT7F6HveryA2UlMW-q2_gP6bAe-GQ
 
 Online Link to see admin dashboard : https://wasserstoff-frontend-assignment.netlify.app/
