@@ -1,22 +1,23 @@
-.Card {
-    width: 300px;
-    height: 490px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
+.subcard__container{
+  background-color: white;
+   padding-left: 10px;
+   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3), 5px 5px 10px rgba(0, 0, 0, 0.3), 0px 5px 10px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   left: 20px;
+   position: relative;
+}
   .Card__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: -51px;
   }
   
   .Card__wrapper p:first-child {
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+ 
   }
   
   .Card__wrapper p:last-child {
@@ -39,4 +40,8 @@
     margin-left: 5px;
     color: #00c48c;
   }
-  
+  .ant-layout-sider-light{
+    flex: 0 0 224px;
+    max-width: 200px;
+    min-width: 301px;
+  }
