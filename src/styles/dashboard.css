@@ -19,3 +19,30 @@
     background-color: #DBDFF1;
     
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .footer p {
+    color: #5A5A89;
+    margin: 0;
+    text-align: left;
+    margin-top: -13px;
+    letter-spacing: 1.5px;
+  }
+  
+  .footer span {
+    color: #5A5A89;
+    letter-spacing: 1.5px;
+    text-align: right;
+    margin-top: -13px;
+  }
+  
+  .ant-layout-sider-light{
+    flex: 0 0 224px;
+    max-width: 200px;
+    min-width: 301px;
+  }
